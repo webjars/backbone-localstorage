@@ -16,6 +16,14 @@
     <description>WebJar for Backbone.localStorage</description>
     <url>http://webjars.org</url>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>backbonejs</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
     <licenses>
         <license>
             <name>MIT License</name>
@@ -25,9 +33,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/cthiebaud/backbone-localstorage</url>
-        <connection>scm:git:https://github.com/cthiebaud/backbone-localstorage.git</connection>
-        <developerConnection>scm:git:https://github.com/cthiebaud/backbone-localstorage.git</developerConnection>
+        <url>http://github.com/webjars/backbone-localstorage</url>
+        <connection>scm:git:https://github.com/webjars/backbone-localstorage.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/backbone-localstorage.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -78,7 +86,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.4.2</version>
+                <version>2.4.1</version>
             </plugin>
         </plugins>
     </build>
