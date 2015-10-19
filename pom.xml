@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>backbone-localstorage</artifactId>
-    <version>1.1.16</version>
+    <version>1.1.17-SNAPSHOT</version>
     <name>Backbone.localStorage</name>
     <description>WebJar for Backbone.localStorage</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/backbone-localstorage</url>
         <connection>scm:git:https://github.com/webjars/backbone-localstorage.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/backbone-localstorage.git</developerConnection>
-        <tag>backbone-localstorage-1.1.16</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
